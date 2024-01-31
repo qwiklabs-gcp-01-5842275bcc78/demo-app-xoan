@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "demo-app-xoan"
+  annotations:
+    github.com/project-slug: qwiklabs-gcp-01-5842275bcc78/demo-app-xoan
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: group:platform
+  lifecycle: experimental
